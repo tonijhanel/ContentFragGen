@@ -6,7 +6,7 @@ from openai import OpenAI
 from pydantic import BaseModel
 from dotenv import load_dotenv
 
-load_dotenv()
+
 
 app = FastAPI(
      title="Content Fragment Generator",
